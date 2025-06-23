@@ -153,7 +153,7 @@ downloadCvBtn.addEventListener('click', (e) => {
     
     // Create a temporary anchor element
     const link = document.createElement('a');
-    link.href = '../Portfolio/Asset/ANANDHARAJ_QA_CV.pdf';
+    link.href = 'ANANDHARAJ_QA_CV.pdf';
     link.download = 'ANANDHARAJ_QA_CV.pdf'; // This will be the downloaded filename
     document.body.appendChild(link);
     link.click();
