@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANANDHA RAJ | QA Engineer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div id="particles-js"></div>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <a href="#" class="logo">CV</a>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                </div>
+                <div class="mobile-menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h4>Hello, I'm</h4>
+                <h1>ANANDHA RAJ</h1>
+                <h2 class="typing-text"></h2>
+                <p>Software Test Engineer with 3+ years of experience in automation & manual testing.</p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn primary">View Projects</a>
+                    <a href="../Portfolio/Asset/ANANDHARAJ_QA_CV.pdf" class="btn secondary" id="download-cv">
+                        <i class="fas fa-download"></i> Download CV
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="../Portfolio/Asset/Img1.jpeg" alt="Alex Smith">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I specialize in ensuring software quality through comprehensive testing strategies, automation frameworks, and CI/CD integration.</p>
+                    <div class="info-grid">
+                        <div class="info-item">
+                            <span>Name:</span>
+                            <p>Anandha Raj</p>
+                        </div>
+                        <div class="info-item">
+                            <span>Email:</span>
+                            <p>anandharaj6969@gmail.com</p>
+                        </div>
+                        <div class="info-item">
+                            <span>Experience:</span>
+                            <p>3+ Years</p>
+                        </div>
+                        <div class="info-item">
+                            <span>Location:</span>
+                            <p>Coimbatore, India</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="../Portfolio/Asset/Img2.jpeg" alt="QA Engineer">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Testing Tools</h3>
+                    <div class="skills-grid">
+                        <div class="skill" data-percent="90">
+                            <div class="skill-name">Selenium</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                        <div class="skill" data-percent="85">
+                            <div class="skill-name">Katalon Studio</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                        <div class="skill" data-percent="80">
+                            <div class="skill-name">Postman API</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                            
+                        </div>
+                        <div class="skill" data-percent="80">
+                            <div class="skill-name">Jira</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                            
+                        </div>
+
+                        <div class="skill" data-percent="80">
+                            <div class="skill-name">Jmeter</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Programming</h3>
+                    <div class="skills-grid">
+                        <div class="skill" data-percent="85">
+                            <div class="skill-name">Java</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                            <div class="skill" data-percent="70">
+                            <div class="skill-name">TestNG</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="skill" data-percent="75">
+                            <div class="skill-name">MY SQL</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                        <div class="skill" data-percent="70">
+                            <div class="skill-name">Groovy</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="automation">Automation</button>
+                <button class="filter-btn" data-filter="manual">Manual QA</button>
+                <button class="filter-btn" data-filter="api">API Testing</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-category="automation">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="E-Commerce Automation">
+                    <div class="project-info">
+                        <h3>E-Commerce Test Suite</h3>
+                        <p>Selenium WebDriver framework with 200+ test cases.</p>
+                        <a href="#" class="project-link">
+                            <i class="fab fa-github"></i> View Code
+                        </a>
+                    </div>
+                </div>
+                <div class="project-card" data-category="api">
+                    <img src="https://images.unsplash.com/photo-1626785774573-4b799315345d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="API Testing">
+                    <div class="project-info">
+                        <h3>REST API Validator</h3>
+                        <p>Postman + Newman integration with CI/CD.</p>
+                        <a href="#" class="project-link">
+                            <i class="fab fa-github"></i> View Code
+                        </a>
+                    </div>
+                </div>
+                <div class="project-card" data-category="manual">
+                    <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Mobile Testing">
+                    <div class="project-info">
+                        <h3>Mobile App QA</h3>
+                        <p>Manual test cases for banking application.</p>
+                        <a href="#" class="project-link">
+                            <i class="fab fa-github"></i> View Case Study
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-container">
+                <form id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn primary">Send Message</button>
+                    <div id="form-status"></div>
+                </form>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>alex.smith@example.com</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+91 9876543210</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Bangalore, India</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+            <p>&copy; <span id="year"></span> Alex Smith. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
